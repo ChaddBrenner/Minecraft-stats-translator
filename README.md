@@ -4,8 +4,8 @@ A quick script to take Minecraft stats stored in a world file from many .json fi
 Requires internet access to use Mojang API to turn UUID into username
 
 How to use:
-1. Insert into your favorite Python IDE
-2. If any modules are not downloaded, donwload them
-3. Change file path to your Minecraft world stats folder in create_csv function
-4. Change file path to where you want the csv file to save in create_csv function
-5. Run it and wait (the speed of the script depends on your internet speed to access the Mojang API)
+1. Clone the git repository
+2. Run the script by typing into your terminal `python3 main.py` after navigating to the correct folder in the terminal
+3. When the prompt shows up, navigate to your Minecraft world folder and select it
+4. Wait, the amount of time that it takes depends on how many statistics there are and how many players there are
+5. Choose a save location for the `.csv` file
